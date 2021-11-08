@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #f1f1f1;
+    text-align: Justify;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    
+}
+.k1{
+    text-align: justify;
+    float: left;
+    padding: 15px;
+}
+.k2{
+    text-align: justify;
+    float: left;
+    padding: 15px;
+}
+
+.image{
+    float: left;
+}
+
+.column{
+    text-align: justify;
+    float: left;
+    padding: 15px;
+}
+
+.row ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.akun a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+.footer{
+    background-color: #333;
+    overflow: hidden;
+}
